@@ -4,6 +4,7 @@ let navBtnArray = [
     { href: "#", text: "Home" },
     { href: "#", text: "About" },
     { href: "#", text: "Contact" },
+    { href: "#", text: "Blog" }
 ];
 
 const navBar = () => {
