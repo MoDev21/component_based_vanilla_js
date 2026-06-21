@@ -1,7 +1,7 @@
-import header from "./components/header.js";
-import diaporama from "./components/diaporama.js";
-import footer from "./components/footer.js";
-import navBar from "./components/navbar.js";
+import header from "./components/organismes/header.js";
+import diaporama from "./components/molecules/diaporama.js";
+import footer from "./components/organismes/footer.js";
+import navBar from "./components/organismes/navbar.js";
 
 const app = document.getElementById("app");
 
