@@ -1,4 +1,4 @@
-import diaporamaElement from "../atoms/diaporamaElement.js";
+import carouselElement from "../atoms/carouselElement.js";
 
 
 var images = [
@@ -9,11 +9,11 @@ var images = [
     {"url": "https://picsum.photos/", "alt": "header Image 5"}
 ];
 
-const diaporama = () => {
+const carousel = () => {
     return `
     <div class="w-auto h-auto bg-slate-900 p-4 rounded flex flex-row items-center gap-4 overflow-scroll">
-        ${images.map((image) => diaporamaElement(image)).join(" ")}
+        ${images.map((image) => carouselElement(image)).join(" ")}
     </div>`;
 }
 
-export default diaporama;
+export default carousel;
